@@ -1,6 +1,6 @@
 import React from 'react';
 import './MakeAppoinment.css'
-import doctors from '../../images/doctors.png'
+import doctors from '../../../images/doctors.png'
 
 const MakeAppoinment = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import ServiceDetails from '../ServiceDetails/ServiceDetails';
- import fluorid from '../../images/fluorid.png';
- import cavity from '../../images/cavity.png';
- import teath  from '../../images/teath.png';
+ import fluorid from '../../../images/fluorid.png';
+ import cavity from '../../../images/cavity.png';
+ import teath  from '../../../images/teath.png';
 
 
 
