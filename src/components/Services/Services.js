@@ -1,8 +1,10 @@
 import React from 'react';
 import ServiceDetails from '../ServiceDetails/ServiceDetails';
-import {fluorid} from '../../images/001-dental.png'
-import {cavity} from '../../images/tooth (1).png'
-import {teath} from '../../images/tooth.png'
+ import fluorid from '../../images/fluorid.png';
+ import cavity from '../../images/cavity.png';
+ import teath  from '../../images/teath.png';
+
+
 
 const Services = () => {
     const service = [
@@ -23,13 +25,13 @@ const Services = () => {
         },
     ]
     return (
-        <div>
-            <section>
+        <div className="text-center mt-3">
+            <section >
                 <h5>Our Services</h5>
-                <h3>Service We Provide</h3>
+                <h3 className="">Service We Provide</h3>
             </section>
              <div className="d-flex justify-content-center">
-                <div className="w-75 row" >
+                <div className="w-75 row mt-4" >
                     {
                         service.map( service => <ServiceDetails service={service}></ServiceDetails>)
                     }
